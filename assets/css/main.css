@@ -1349,8 +1349,20 @@ input, select, textarea {
 				padding: 3rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
-			background-color: rgba(0, 0, 0, 0.7);
-			border-radius: 0.5rem;
+				background-color: rgba(0, 0, 0, 0.7);
+				border-radius: 0.5rem;
+		}
+
+				#header .content .inner > :last-child {
+					margin-bottom: 0;
+				}
+
+			#header .content p {
+				text-transform: uppercase;
+				letter-spacing: 0.2rem;
+				font-size: 0.8rem;
+				line-height: 2;
+			}
 
 		#header nav ul {
 			display: -moz-flex;
