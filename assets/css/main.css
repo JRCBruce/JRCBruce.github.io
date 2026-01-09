@@ -1180,6 +1180,32 @@ input, select, textarea {
 			background-color: #000000;
 		}
 
+/* BG Credit */
+
+	#bg-credit {
+		position: fixed;
+		bottom: 1rem;
+		left: 1rem;
+		z-index: 4;
+		color: rgba(255, 255, 255, 0.5);
+		font-size: 0.7rem;
+		letter-spacing: 0.1rem;
+	}
+
+		#bg-credit p {
+			margin: 0;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#bg-credit {
+				font-size: 0.6rem;
+				bottom: 0.5rem;
+				left: 0.5rem;
+			}
+
+		}
+
 /* Wrapper */
 
 	#wrapper {
