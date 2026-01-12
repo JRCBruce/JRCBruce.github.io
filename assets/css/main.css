@@ -1335,6 +1335,7 @@ input, select, textarea {
 			border-top-width: 1px;
 			border-bottom-width: 1px;
 			max-width: 100%;
+			background-color: rgba(27, 31, 34, 0.85);
 		}
 
 			#header .content .inner {
