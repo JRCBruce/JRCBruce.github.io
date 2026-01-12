@@ -1372,6 +1372,7 @@ input, select, textarea {
 			padding-left: 0;
 			border: solid 1px #ffffff;
 			border-radius: 4px;
+			background-color: rgba(27, 31, 34, 0.85);
 		}
 
 			#header nav ul li {
