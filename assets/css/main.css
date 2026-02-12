@@ -98,6 +98,11 @@ input, select, textarea {
 		background: #1b1f22;
 	}
 
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -716,6 +721,17 @@ input, select, textarea {
 
 			.image.main {
 				margin: 1.5rem 0;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.image.left, .image.right {
+				float: none;
+				max-width: 100%;
+				margin: 0 auto 2rem auto;
+				padding: 0;
 			}
 
 		}
